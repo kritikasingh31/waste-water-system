@@ -34,24 +34,24 @@
 
 .content1{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    text-align: center;
-    flex-direction: column;
-    font-size:17px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+	text-align: center;
+	flex-direction: column;
+	font-size:17px;
 }
 
 .navbar-brand{
- font-size: 27px; 
- font-family: 'Montserrat', sans-serif!important;
- font-weight: bold;
- letter-spacing: 3px;
+	font-size: 27px; 
+	font-family: 'Montserrat', sans-serif!important;
+	font-weight: bold;
+	letter-spacing: 3px;
 }
 .navbar-nav>.active >a {
-    border-bottom: 3px solid #0e2e04;
-    background-color:transparent !important;
+	border-bottom: 3px solid #0e2e04;
+	background-color:transparent !important;
 }
 .content2{
 	width: 100%;
@@ -115,4 +115,14 @@ input[type=submit]{
 	margin-top: -12px;
 	height: 330px;
 	border-radius: 5px;
+}
+.carousel-inner>.item:before {
+    content:'';
+    position: absolute;
+    width:100%; 
+    height:100%;
+    top:0; 
+    left:0;
+    background:black;
+    opacity: 0.6;
 }

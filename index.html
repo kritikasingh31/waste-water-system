@@ -7,250 +7,232 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<section>
-		<nav class="navbar navbar-inverse">
+  <section>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#"><span style="margin-left:40px;">TREATMENT SERVICE</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active" ><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#stages">Stages</a></li> 
+            <li><a href="#contact">Contact</a></li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:-70px;z-index: -1">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="assets/images/plant.jpg" alt="Plant" style="width:1600px;height:100vh;">
+          <div class="carousel-caption">
+            <h2>WASTE WATER TREATMENT PLANT</h2>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="assets/images/receiving chamber.jpg" alt="receiving" style="width:100%;height:100vh;">
+          <div class="carousel-caption">
+            <h2>RECEIVING CHAMBER</h2>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="assets/images/grit chamber.jpg" alt="grit" style="width:100%;height:100vh;">
+          <div class="carousel-caption">
+            <h2>GRIT CHAMBER</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/images/skimmers.jpeg" alt="skimmer" style="width:100%;height:100vh;">
+          <div class="carousel-caption">
+            <h2>SKIMMING TANK</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/images/aeration tank.jpg" alt="aeration" style="width:100%;height:100vh;">
+          <div class="carousel-caption">
+            <h2>AERATION TANK</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/images/sedimentation tank.jpg" alt="sedimentation" style="width:100%;height:100vh;">
+          <div class="carousel-caption">
+            <h2>SEDIMENTATION TANK</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/images/filteration chamber.jpg" alt="filteration" style="width:100%;height: 100vh;">
+          <div class="carousel-caption">
+            <h2>FILTERATION CHAMBER</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/images/disinfection chamber.jpg" alt="disinfection" style="width:100%;height:100vh;">
+          <div class="carousel-caption">
+            <h2>DISINFECTION CHAMBER</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/images/distribution chamber.jpg" alt="distribution" style="width:100%;height:100vh;">
+          <div class="carousel-caption">
+            <h2>DISTRIBUTION CHAMBER</h2>
+          </div>
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <section id="about">
+   <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+    <div class="display text-center">
+      <h1 >WASTE WATER TREATMENT PLANT</h1>
+      <hr style="border-bottom:2px solid #718e44;width: 10%;line-height:-1px; ">
+    </div>
+  </div>
   <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#"><span style="margin-left:40px;">TREATMENT SERVICE</span></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-    	 <ul class="nav navbar-nav navbar-right">
-        <li class="active" ><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#stages">Stages</a></li> 
-        <li><a href="#contact">Contact</a></li> 
-      </ul>
+   <div class="row">
+     <div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
+      <div class="img1">
+       <img src="assets/images/main.png" width="100%" height="400px;">
+     </div>
+   </div>
+   <div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
+     <div class=" content1 text-center">
+      <h2>WASTE WATER SYSTEM</h2><br>
+      <p>Wastewater treatment is a process used to convert wastewater into an effluent (outflowing of water to a receiving body of water) that can be returned to the water cycle with minimal impact on the environment or directly reused. The latter is called water reclamation because treated wastewater can then be used for other purposes. The treatment process takes place in a wastewater treatment plant (WWTP), often referred to as a Water Resource Recovery Facility (WRRF) or a sewage treatment plant. Pollutants in municipal wastewater (households and small industries) are removed or broken down.</p>
     </div>
   </div>
-</nav>
+</div>
+</div>
 </section>
-<section>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:-70px;z-index: -1">
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="plant.jpg" alt="Plant" style="width:1600px;height:100vh;">
-        <div class="carousel-caption">
-          <h2>WASTE WATER TREATMENT PLANT</h2>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src="receiving chamber.jpg" alt="receiving" style="width:100%;height:100vh;">
-        <div class="carousel-caption">
-          <h2>RECEIVING CHAMBER</h2>
-        </div>
-      </div>
-    
-      <div class="item">
-        <img src="grit chamber.jpg" alt="grit" style="width:100%;height:100vh;">
-        <div class="carousel-caption">
-          <h2>GRIT CHAMBER</h2>
-        </div>
-      </div>
-      <div class="item">
-        <img src="skimmers.jpeg" alt="skimmer" style="width:100%;height:100vh;">
-        <div class="carousel-caption">
-          <h2>SKIMMING TANK</h2>
-        </div>
-      </div>
-      <div class="item">
-        <img src="aeration tank.jpg" alt="aeration" style="width:100%;height:100vh;">
-        <div class="carousel-caption">
-          <h2>AERATION TANK</h2>
-        </div>
-      </div>
-      <div class="item">
-        <img src="sedimentation tank.jpg" alt="sedimentation" style="width:100%;height:100vh;">
-        <div class="carousel-caption">
-          <h2>SEDIMENTATION TANK</h2>
-        </div>
-      </div>
-      <div class="item">
-        <img src="filteration chamber.jpg" alt="filteration" style="width:100%;height: 100vh;">
-        <div class="carousel-caption">
-          <h2>FILTERATION CHAMBER</h2>
-        </div>
-      </div>
-      <div class="item">
-        <img src="disinfection chamber.jpg" alt="disinfection" style="width:100%;height:100vh;">
-        <div class="carousel-caption">
-          <h2>DISINFECTION CHAMBER</h2>
-        </div>
-      </div>
-      <div class="item">
-        <img src="distribution chamber.jpg" alt="distribution" style="width:100%;height:100vh;">
-        <div class="carousel-caption">
-          <h2>DISTRIBUTION CHAMBER</h2>
-        </div>
-      </div>
-  
+<section id="stages">
+	<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+		<div class="display text-center">
+      <h1 >STAGES OF TREATMENT</h1>
+      <hr style="border-bottom:2px solid #718e44;width: 10%;line-height:-1px; ">
     </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
-</div>		
-	</div>
-</section>
-<section>
-	<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-		<div class="display text-center">
-		<h1 id="about">WASTE WATER TREATMENT PLANT</h1>
-		<hr style="border-bottom:2px solid #718e44;width: 10%;line-height:-1px; ">
-		</div>
-	</div>
-</section>
 
-<section>
-	<div class="container-fluid">
-	<div class="row">
-	<div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
-		<div class="img1">
-			<img src="main.png" width="100%" height="400px;">
-		</div>
-	</div>
-		<div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
-			<div class=" content1 text-center">
-				<h2>WASTE WATER SYSTEM</h2><br>
-				<p>Wastewater treatment is a process used to convert wastewater into an effluent (outflowing of water to a receiving body of water) that can be returned to the water cycle with minimal impact on the environment or directly reused. The latter is called water reclamation because treated wastewater can then be used for other purposes. The treatment process takes place in a wastewater treatment plant (WWTP), often referred to as a Water Resource Recovery Facility (WRRF) or a sewage treatment plant. Pollutants in municipal wastewater (households and small industries) are removed or broken down.</p>
-			</div>
-		</div>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
+     <div class=" content1 text-center">
+      <h2>STAGE ONE: SCREENING</h2><br>
+      <p>Screening is the first stage of the wastewater treatment process. Screening removes large objects like, diapers, nappies, sanitary items, cotton buds, face wipes and even broken bottles, bottle tops, plastics and rags that may block or damage equipment. 
+      Special equipment is also used to remove grit that gets washed into the sewer.</p>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
+    <div class="img1">
+     <img src="assets/images/screening.jpg" width="100%" height="400px;">
+   </div>
+ </div>
 </div>
 </div>
-</section>
-<section>
-	<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-		<div class="display text-center">
-		<h1 id="stages">STAGES OF TREATMENT</h1>
-		<hr style="border-bottom:2px solid #718e44;width: 10%;line-height:-1px; ">
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container-fluid">
-	<div class="row">
-	
-		<div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
-			<div class=" content1 text-center">
-				<h2>STAGE ONE: SCREENING</h2><br>
-				<p>Screening is the first stage of the wastewater treatment process. Screening removes large objects like, diapers, nappies, sanitary items, cotton buds, face wipes and even broken bottles, bottle tops, plastics and rags that may block or damage equipment. 
-                Special equipment is also used to remove grit that gets washed into the sewer.</p>
-			</div>
-		</div>
-		<div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
-		<div class="img1">
-			<img src="screening.jpg" width="100%" height="400px;">
-		</div>
-	</div>
+
+
+<div class="container-fluid">
+ <div class="row">
+   <div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
+    <div class="img1">
+     <img src="assets/images/primary-treatment-sewage.gif" width="100%" height="400px;">
+   </div>
+ </div>
+ <div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
+   <div class=" content1 text-center">
+    <h2>STAGE TWO: PRIMARY TREATMENT</h2><br>
+    <p>This involves the separation of organic solid matter (or human waste) from the wastewater. This is done by putting the wastewater into large settlement tanks for the solids to sink to the bottom of the tank. The settled solids are called ‘sludge’. At the bottom of these circular tanks, large scrappers continuously scrape the floor of the tank and push the sludge towards the center where it is pumped away for further treatment. The rest of the water is then moved to the Secondary treatment.</p>
+  </div>
 </div>
 </div>
-</section>
-<section>
-	<div class="container-fluid">
-	<div class="row">
-	<div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
-		<div class="img1">
-			<img src="primary-treatment-sewage.gif" width="100%" height="400px;">
-		</div>
-	</div>
-		<div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
-			<div class=" content1 text-center">
-				<h2>STAGE TWO: PRIMARY TREATMENT</h2><br>
-				<p>This involves the separation of organic solid matter (or human waste) from the wastewater. This is done by putting the wastewater into large settlement tanks for the solids to sink to the bottom of the tank. The settled solids are called ‘sludge’. At the bottom of these circular tanks, large scrappers continuously scrape the floor of the tank and push the sludge towards the center where it is pumped away for further treatment. The rest of the water is then moved to the Secondary treatment.</p>
-			</div>
-		</div>
+</div>
+
+<div class="container-fluid">
+ <div class="row">
+
+  <div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
+   <div class=" content1 text-center">
+    <h2>STAGE THREE: SECONDARY TREATMENT</h2><br>
+    <p>The water, at this stage, is put into large rectangular tanks. These are called aeration lanes. Air is pumped into the water to encourage bacteria to break down the tiny bits of sludge that escaped the sludge scrapping process.</p>
+  </div>
+</div>
+<div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
+  <div class="img1">
+   <img src="assets/images/secondary.png" width="100%" height="400px;">
+ </div>
 </div>
 </div>
-</section>
-<section>
-	<div class="container-fluid">
-	<div class="row">
-	
-		<div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
-			<div class=" content1 text-center">
-				<h2>STAGE THREE: SECONDARY TREATMENT</h2><br>
-				<p>The water, at this stage, is put into large rectangular tanks. These are called aeration lanes. Air is pumped into the water to encourage bacteria to break down the tiny bits of sludge that escaped the sludge scrapping process.</p>
-			</div>
-		</div>
-		<div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
-		<div class="img1">
-			<img src="secondary.png" width="100%" height="400px;">
-		</div>
-	</div>
 </div>
+
+<div class="container-fluid">
+ <div class="row">
+   <div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
+    <div class="img1">
+     <img src="assets/images/final.gif" width="100%" height="400px;">
+   </div>
+ </div>
+ <div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
+   <div class=" content1 text-center">
+    <h2>STAGE FOUR: FINAL TREATMENT</h2><br>
+    <p>Next, the ‘almost’ treated wastewater is passed through a settlement tank. Here, more sludge is formed at the bottom of the tank from the settling of the bacterial action. Again, the sludge is scraped and collected for treatment. The water at this stage is almost free from harmful substances and chemicals. The water is allowed to flow over a wall where it is filtered through a bed of sand to remove any additional particles.</p>
+  </div>
 </div>
-</section>
-<section>
-	<div class="container-fluid">
-	<div class="row">
-	<div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
-		<div class="img1">
-			<img src="final.gif" width="100%" height="400px;">
-		</div>
-	</div>
-		<div class="col-md-6 col-lg-6 col-xs-12 col-sm-6">
-			<div class=" content1 text-center">
-				<h2>STAGE FOUR: FINAL TREATMENT</h2><br>
-				<p>Next, the ‘almost’ treated wastewater is passed through a settlement tank. Here, more sludge is formed at the bottom of the tank from the settling of the bacterial action. Again, the sludge is scraped and collected for treatment. The water at this stage is almost free from harmful substances and chemicals. The water is allowed to flow over a wall where it is filtered through a bed of sand to remove any additional particles.</p>
-			</div>
-		</div>
 </div>
 </div>
 </section>
 <footer id="contact">
 	<div class="container-fluid content2">
 		<div class="row">
-	<div class="col-sm-7 col-xs-12 col-lg-7 col-md-7">
-		<div class="content3">
-			
-
-	<p>hiiii</p>
-	</div>
-	</div>
-	<div class="col-sm-5 col-xs-12 col-lg-5 col-md-5">
-		<div class="form">
-			<div class="problem">
-          <p class="enquiry">REPORT PROBLEM</p>
-      </div>
-      <div class="form1"><br>
-        <form action="/action_page.php">
-  <div class="form-group">  
-    <input name="Name" type="text" class="form-control" id="name1" placeholder=" Name">
-  </div>
-  <div class="form-group">
-    <input name="EmailId" type="text" class="form-control" id="email" placeholder="Locality(Compulsary)">
-  </div>
-  <div class="form-group">
-    <input name="number" type="text" class="form-control" id="email" placeholder="Contact Number">
-  </div>
-  <input  type="submit" name="submit" value="Submit">
-</form>
-</div>
+     <div class="col-sm-7 col-xs-12 col-lg-7 col-md-7">
+      <div class="content3">
+       <p>hiiii</p>
      </div>
-      </div>
+   </div>
+   <div class="col-sm-5 col-xs-12 col-lg-5 col-md-5">
+    <div class="form">
+     <div class="problem">
+      <p class="enquiry">REPORT PROBLEM</p>
+    </div>
+    <div class="form1"><br>
+      <form action="/action_page.php">
+        <div class="form-group">  
+          <input name="Name" type="text" class="form-control" id="name1" placeholder=" Name">
+        </div>
+        <div class="form-group">
+          <input name="EmailId" type="text" class="form-control" id="email" placeholder="Locality(Compulsary)">
+        </div>
+        <div class="form-group">
+          <input name="number" type="text" class="form-control" id="email" placeholder="Contact Number">
+        </div>
+        <input  type="submit" name="submit" value="Submit">
+      </form>
     </div>
   </div>
-		
-	</div>
-	</div>
-
+</div>
 </div>
 </div>
 </footer>
+<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
