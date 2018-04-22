@@ -21,7 +21,7 @@
 }
 .carousel-caption h2{
 	font-size: 50px;
-	color:black ;
+	color:#fff ;
 	letter-spacing: 5px;
 }
 .display{
@@ -125,4 +125,19 @@ input[type=submit]{
     left:0;
     background:black;
     opacity: 0.6;
+}
+.carousel-caption{
+top: 30%;
+text-shadow: 0px 0px 1px black;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
 }
