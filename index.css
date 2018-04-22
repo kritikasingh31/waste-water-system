@@ -1,0 +1,44 @@
+.navbar{
+	margin: 0;
+	border:0;
+	border-radius: 0;
+	background-color:#718e44;
+	font-size: 20px;
+
+}
+.navbar-nav li a:hover{
+	padding:15px;
+	background-color: #0e2e04 !important;
+}
+.navbar-nav li a:link,a:visited,a:active{
+	color: white !important;
+	letter-spacing: 2px;
+}
+.carousel-caption h2{
+	font-size: 50px;
+	color:black ;
+	letter-spacing: 5px;
+}
+.display{
+	margin-top: 90px;
+}
+.img1{
+	margin-top: 50px;
+}
+
+.content1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    text-align: center;
+    flex-direction: column;
+    font-size:17px;
+}
+.content2{
+	width: 100%;
+	height: 300px;
+	background-color:#718e44;
+	margin-top: -10px; 
+}
