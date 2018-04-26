@@ -72,7 +72,7 @@ body{
 }
 .form{
 	width: 335px;
-	min-height:500px;
+	height:450px;
 	border-radius:4px;
 	margin-top: 25px;
 	margin-left: 100px;
@@ -83,7 +83,7 @@ input[type=text]{
 	width: 250px;
 	margin-left: 42px;
 	border-radius: 15px;
-	height: 35px;
+	height: 40px;
 }
 input[type=number]{
 	margin-top: 20px;
@@ -91,7 +91,7 @@ input[type=number]{
 	width: 250px;
 	margin-left: 42px;
 	border-radius: 15px;
-	height: 35px;
+	height: 40px;
 }
 #sel1 {
 	margin-top: 20px;
