@@ -214,15 +214,18 @@
       <p class="enquiry">REPORT PROBLEM</p>
     </div>
     <div class="form1"><br>
-      <form action="/action_page.php">
+      <form id = "gform" method="POST" action="https://script.google.com/macros/s/AKfycbxUEKKn2ZyQO3B2fJDvS8BBGXzOTI5JBCZcGKIL1ibG2bpmy-c/exec">
         <div class="form-group">  
-          <input name="Name" type="text" class="form-control" id="name1" placeholder=" Name">
+          <input name="name" type="text" class="form-control" id="name1" placeholder=" Name">
         </div>
         <div class="form-group">
-          <input name="EmailId" type="text" class="form-control" id="email" placeholder="Locality(Compulsary)">
+          <input name="Locality" type="text" class="form-control" id="locality" placeholder="Locality(Compulsary)">
         </div>
         <div class="form-group">
-          <input name="number" type="text" class="form-control" id="email" placeholder="Contact Number">
+          <input name="message" type="text"  class="form-control" id="message" placeholder="Add Message">
+        </div>
+        <div class="form-group">
+          <input name="number" type="number"  class="form-control" id="number" placeholder="Contact Number">
         </div>
         <input  type="submit" name="submit" value="Submit">
       </form>
@@ -243,5 +246,7 @@
 </footer>
 <script type="text/javascript" src="assets/js/script.js"></script>
 <script type="text/javascript" src="assets/js/animations.js"></script>
+<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
+<script type="text/javascript" src="ss.js"></script>
 </body>
 </html>
